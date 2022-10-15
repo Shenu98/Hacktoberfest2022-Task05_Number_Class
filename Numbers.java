@@ -1,8 +1,9 @@
 //Number Class
+//fixed
 public class Numbers {
 	
 	private int a;
-	private int b
+	private int b;
 	
 	public Numbers(int n1,int n2) {
 		a = n1;
@@ -14,7 +15,7 @@ public class Numbers {
 			return b;
 		}
 		else {
-			return a
+			return a;
 		}
 	}
 	
@@ -23,7 +24,7 @@ public class Numbers {
 	}
 	
 	public int getAvg() {
-		return (a+b)*2;
+		return (a+b)/2;
 	}
 	
 }
