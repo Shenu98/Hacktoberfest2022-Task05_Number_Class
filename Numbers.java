@@ -1,29 +1,29 @@
 //Number Class
 public class Numbers {
 	
-	private int a;
-	private int b
+	private int number1;
+	private int number2;
 	
 	public Numbers(int n1,int n2) {
-		a = n1;
-		b = n2;
+		number1 = n1;
+		number2 = n2;
 	}
 	
 	public int getMax() {
-		if(a<b) {
-			return b;
+		if(number1<number2) {
+			return number2;
 		}
 		else {
-			return a
+			return number1;
 		}
 	}
 	
 	public int getSum() {
-		return (a-b);
+		return (number1+number2);
 	}
 	
 	public int getAvg() {
-		return (a+b)*2;
+		return (number1+number2)*2;
 	}
 	
 }
